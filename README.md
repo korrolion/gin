@@ -19,7 +19,7 @@ $ cat test.go
 ```go
 package main
 
-import "github.com/gin-gonic/gin"
+import "github.com/korrolion/gin"
 
 func main() {
 	r := gin.Default()
@@ -93,7 +93,7 @@ BenchmarkZeus_GithubAll 		| 2000 		| 944234 	| 300688 	| 2648
 2. Import it in your code:
 
     ```go
-    import "github.com/gin-gonic/gin"
+    import "github.com/korrolion/gin"
     ```
 
 3. (Optional) Import `net/http`. This is required for example if using constants such as `http.StatusOK`.
@@ -377,8 +377,8 @@ func main() {
 package main
 
 import (
-	"github.com/gin-gonic/gin"
-	"github.com/gin-gonic/gin/binding"
+	"github.com/korrolion/gin"
+	"github.com/korrolion/gin/binding"
 )
 
 type LoginForm struct {

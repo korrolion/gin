@@ -7,7 +7,7 @@ package gin
 import (
 	"os"
 
-	"github.com/gin-gonic/gin/binding"
+	"github.com/korrolion/gin/binding"
 )
 
 const ENV_GIN_MODE = "GIN_MODE"
